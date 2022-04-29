@@ -19,6 +19,7 @@ ul {
 p {
     text-align: justify;
     padding: 0 10px;
+    transition: 300ms;
 }
 
 /* IDs */
@@ -52,6 +53,5 @@ a {
 
 body > div > p:hover {
     background-color: aqua;
-    transition: 300ms;
     cursor: crosshair;
 }
