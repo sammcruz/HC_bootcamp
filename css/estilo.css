@@ -49,3 +49,9 @@ p {
 a {
     text-decoration: none;
 }
+
+body > div > p:hover {
+    background-color: aqua;
+    transition: 300ms;
+    cursor: crosshair;
+}
