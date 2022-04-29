@@ -1,0 +1,17 @@
+<style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1, span {
+            color: turquoise;
+        }
+        span {
+            color: aquamarine;
+        }
+        li {
+            text-decoration: underline;
+        }
+        ul {
+            border: 1px solid black;
+        }
+    </style>
