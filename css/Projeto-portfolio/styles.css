@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: sienna;
+    font-family: 'poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(./pexels-tim-mossholder-1439226.jpg);
+    background: center center fixed cover;
+    background-repeat: no-repeat;
+    /* background-position: center center fixed; */
+    background-size: cover;
+    /* background-image: linear-gradient(to right, #94c7ff, #7fb6ff, #6fa5ff, #6792fc, #677ef7, #616de8, #5c5cd9, #584aca, #463bb2, #332c9b, #1e1d85, #000f6f); */
+}
+
+.container {
+    text-align: center;
+}
+
+.container.name h1{
+    font-size: 60px;
+}
+
+.container.name h5{
+    font-size: 25px;
+}
+
+#about p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form input {
+    width: 50%;
+}
