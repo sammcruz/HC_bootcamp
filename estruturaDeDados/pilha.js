@@ -31,19 +31,19 @@ function estaVazia(){
 
 // ------- parte d código que usa a pilha ----- //
 
-// push(10)
-// push(20)
-// push(30)
+push(10)
+push(20)
+push(30)
 
-// console.log(elementos)
+console.log(elementos)
 
-// console.log(pop())
-// console.log(pop())
-// console.log("Pilha está vazia?")
-// console.log(estaVazia())
-// console.log(pop())
-// console.log("Pilha está vazia?")
-// console.log(estaVazia())
+console.log(pop())
+console.log(pop())
+console.log("Pilha está vazia?")
+console.log(estaVazia())
+console.log(pop())
+console.log("Pilha está vazia?")
+console.log(estaVazia())
 
 // ------- mais um exemplo com uso de pilha ----- //
 
