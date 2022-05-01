@@ -107,6 +107,7 @@ form input {
 
 form button {
     width: 15%;
+    min-width: 60px;
     padding: 5px 10px;
     background: linear-gradient(to right, #c09717 50%, #9c551b 50%);
     background-size: 200% 100%;
@@ -149,4 +150,24 @@ form button:hover {
 
 .flex img {
     max-width: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container .name h1 {
+        font-size: 20px;
+    }
+
+    .container .name h5 {
+        font-size: 15px;
+    }
+    #about p{
+        max-width: 80%;
+        text-align: justify;
+    }
 }
